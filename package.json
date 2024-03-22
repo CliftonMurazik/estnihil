@@ -1,0 +1,45 @@
+{
+  "name": "estnihil",
+  "version": "1.0.0",
+  "description": "Parse LCOV",
+  "license": "MIT",
+  "author": "MyraWehner",
+  "homepage": "https://github.com/CliftonMurazik/estnihil.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CliftonMurazik/estnihil.git"
+  },
+  "keywords": [
+    "qui",
+    "aspernatur",
+    "coverage",
+    "lines",
+    "to",
+    "veniam",
+    "fuga",
+    "types",
+    "ts",
+    "typescript"
+  ],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.6.3"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-bob"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "bob commit lint"
+    }
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-bob"
+  },
+  "bugs": {
+    "url": "https://github.com/CliftonMurazik/estnihil.git/issues"
+  }
+}
